@@ -1,4 +1,5 @@
 package-lock.json
 /node_modules
-
-types.js
+# Ignores compiled TypeScript files
+**/TypeScript/*.map
+**/TypeScript/*.js
