@@ -14,7 +14,8 @@ class User {
     console.log(this.name + " Registered");
   }
 }
-
+// var kumail = new User("Kumail", "kum@gmail.com", 20);
+// kumail.register();
 //now we have access to all the properties of class User in kumail
 // console.log(kumail.age)
 
@@ -34,5 +35,6 @@ class Member extends User {
     super.register();
   }
 }
-var kumail = new User("Kumail", "kum@gmail.com", 20);
-kumail.register();
+
+var kumail: User = new Member(1,"Kumail","ali@gmail.com",20)
+kumail.register()
