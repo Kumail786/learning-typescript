@@ -3,3 +3,4 @@ package-lock.json
 # Ignores compiled TypeScript files
 types.js
 functions.js
+index.html
