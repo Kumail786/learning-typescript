@@ -1,5 +1,5 @@
 var myString: string;
 var mynum : number;
-myString = "Hello World";
+myString = "Hello Worlds";
 mynum = 3;
 console.log(mynum)
