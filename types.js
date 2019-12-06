@@ -19,3 +19,9 @@ var numarray : Array<number>
 var numarray;
 numarray = [1, 2, 3, 4, mynum];
 console.log(numarray);
+//Tuple data type
+//it will not work if we replace places of Kumail and 3, because it must
+//match the pattern.But if we write Kumail,3,4,5, it will work , as it is following defined pattern.
+var strnumTuple;
+strnumTuple = ["Kumail", 3];
+console.log(strnumTuple);
