@@ -22,5 +22,5 @@ console.log(myarray)
 var numarray : Array<number>
 */
 var numarray : number[];
-numarray = [1,2,3,mynum]
+numarray = [1,2,3,4,mynum]
 console.log(numarray)
